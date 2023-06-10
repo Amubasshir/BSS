@@ -1,7 +1,7 @@
 <template>
-  <section id="partnership" class="py-10">
+  <section id="partnership" class="py-10 pb-16">
     <div class="flex flex-col gap-5 items-center">
-      <h1 class="text-4xl font-bold tracking-tighter py-7">
+      <h1 class="text-4xl font-bold tracking-tighter py-5">
         Global Partnership Reach
       </h1>
       <p class="text-2xl text-gray-500 font-thin pb-7">
