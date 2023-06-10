@@ -20,11 +20,6 @@ const showMenu = ref(false);
       </div>
       <div class="flex lg:hidden items-center gap-2">
         <button
-          class="relative z-30 px-4 py-2 -mt-1.5 text-sm rounded-full text-white font-medium tracking-wider uppercase bg-primary-200 w-full lg:w-auto"
-        >
-          Hire Remote Talent
-        </button>
-        <button
           @click="showMenu = !showMenu"
           class="relative z-30 text-black -mt-2 p-2 bg-primary-200 rounded-sm"
         >
