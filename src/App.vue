@@ -1,6 +1,7 @@
 <script setup>
 import About from './components/About.vue';
 import Clients from './components/Clients.vue';
+import Footer from './components/Footer.vue';
 import Hero from './components/Hero.vue';
 import Navbar from './components/Navbar.vue';
 import Partnership from './components/Partnership.vue';
@@ -17,5 +18,6 @@ import Technologies from './components/Technologies.vue';
     <Solutions />
     <Technologies />
     <Clients />
+    <Footer />
   </div>
 </template>

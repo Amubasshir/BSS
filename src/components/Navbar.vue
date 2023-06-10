@@ -8,9 +8,9 @@ const showMenu = ref(false);
 <template>
   <nav
     ref="navbar"
-    class="fixed top-0 left-0 w-full bg-white z-20 transition duration-200"
+    class="fixed top-0 left-0 w-full shadow-lg bg-white z-20 transition duration-200"
   >
-    <div class="container flex items-center justify-between h-20">
+    <div class="container flex items-center justify-between h-24">
       <div class="w-[100px] h-[48px]">
         <img
           src="https://www.bssoln.com/img/brand-logo.png"
