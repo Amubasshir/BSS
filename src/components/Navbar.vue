@@ -5,13 +5,51 @@ const navbar = ref('');
 const showMenu = ref(false);
 </script>
 
+<script>
+export default {
+  data() {
+    return {
+      shouldScaleLogo: false,
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop =
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop ||
+        0;
+      const scrollThreshold = 100;
+
+      this.shouldScaleLogo = scrollTop > scrollThreshold;
+    },
+  },
+};
+</script>
+
+<style scoped>
+.scaled-down {
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+</style>
+
 <template>
   <nav
     ref="navbar"
     class="fixed top-0 left-0 w-full shadow-lg bg-white z-20 transition duration-200"
   >
     <div class="container flex items-center justify-between h-20">
-      <div class="w-[100px] h-[48px]">
+      <div
+        class="w-[100px] h-[48px]"
+        :class="{ 'scaled-down': shouldScaleLogo }"
+      >
         <img
           src="https://www.bssoln.com/img/brand-logo.png"
           alt="logo-image"
@@ -80,3 +118,10 @@ const showMenu = ref(false);
     </div>
   </nav>
 </template>
+
+<style scoped>
+.scaled-down {
+  transform: scale(0.8); /* Adjust the scale factor as desired */
+  transition: transform 0.3s ease; /* Adjust the transition duration and easing as desired */
+}
+</style>
