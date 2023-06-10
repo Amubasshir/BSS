@@ -10,7 +10,7 @@ const showMenu = ref(false);
     ref="navbar"
     class="fixed top-0 left-0 w-full shadow-lg bg-white z-20 transition duration-200"
   >
-    <div class="container flex items-center justify-between h-24">
+    <div class="container flex items-center justify-between h-20">
       <div class="w-[100px] h-[48px]">
         <img
           src="https://www.bssoln.com/img/brand-logo.png"
@@ -43,36 +43,36 @@ const showMenu = ref(false);
       >
         <a
           @click="showMenu = false"
-          class="text-black font-semibold"
+          class="text-black text-sm tracking-tighter font-semibold"
           href="#about"
           >About</a
         >
         <a
           @click="showMenu = false"
-          class="text-black font-semibold"
+          class="text-black text-sm tracking-tighter font-semibold"
           href="#solutions"
           >Solutions</a
         >
         <a
           @click="showMenu = false"
-          class="text-black font-semibold"
+          class="text-black text-sm tracking-tighter font-semibold"
           href="#hire-a-developer"
           >Hire A Developer</a
         >
         <a
           @click="showMenu = false"
-          class="text-black font-semibold"
+          class="text-black text-sm tracking-tighter font-semibold"
           href="#team"
           >Team</a
         >
         <a
           @click="showMenu = false"
-          class="text-black font-semibold"
+          class="text-black text-sm tracking-tighter font-semibold"
           href="#remote-talent"
           >Remote Talent</a
         >
         <button
-          class="hidden md:block px-14 py-5 rounded-full text-white font-semibold tracking-wider uppercase bg-primary-200 hover:bg-primary-100 transition-colors duration-300 w-full lg:w-auto"
+          class="hidden md:block px-10 py-[14px] rounded-full text-white font-medium text-sm uppercase bg-primary-200 hover:bg-primary-100 transition-colors duration-300 w-full lg:w-auto"
         >
           Hire Remote Talent
         </button>

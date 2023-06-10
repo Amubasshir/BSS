@@ -1,10 +1,10 @@
 <template>
   <section id="partnership" class="py-10 pb-16">
     <div class="flex flex-col gap-5 items-center">
-      <h1 class="text-4xl font-bold tracking-tighter py-5">
+      <h1 class="text-3xl font-bold tracking-tighter pt-5">
         Global Partnership Reach
       </h1>
-      <p class="text-2xl text-gray-500 font-thin pb-7">
+      <p class="text-xl text-gray-500 font-thin pb-7">
         With a promise of spreading the world's most advanced technologies and
         services
       </p>

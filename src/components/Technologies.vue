@@ -2,10 +2,12 @@
   <section class="py-10">
     <div class="container grid grid-cols-2 gap-2">
       <div class="left flex flex-col items-start justify-center">
-        <h1 class="text-5xl font-bold tracking-tighter pb-10">
+        <h1 class="text-4xl font-bold tracking-tighter pb-10">
           Technologies we use
         </h1>
-        <p class="text-gray-500 text-3xl leading-[48px] w-[500px] font-thin">
+        <p
+          class="text-gray-500 text-3xl tracking-normal leading-[48px] w-[500px] font-thin"
+        >
           we follow the Agile Software Development methodology, which refers to
           a group of software development methodologies that are based on
           similar principles.

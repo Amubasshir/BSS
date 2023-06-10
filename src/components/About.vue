@@ -12,10 +12,10 @@
       </div>
       <div class="right flex flex-col pl-10">
         <div class="mt-[-40px] pb-5">
-          <h2 class="text-4xl tracking-tighter font-bold">About</h2>
+          <h2 class="text-3xl tracking-tighter font-bold">About</h2>
           <h2 class="text-2xl font-thin text-gray-500">Who We Are</h2>
         </div>
-        <p class="text-lg font-normal leading-9 tracking-wide pb-8">
+        <p class="text-sm font-normal leading-7 tracking-wide pb-8">
           BSS started its journey in 2015 with an aim of building an efficient
           team and a remunerative system. BSS aims to collaborate with the
           clients to achieve their strategic objectives while creating long-term
@@ -28,7 +28,7 @@
           value of services delivered....
         </p>
         <button
-          class="btn bg-transparent hover:bg-[#3181C1] hover:text-white transition-all duration-300 border-[3px] border-[#3181C1] text-[#3181C1] text-lg font-semibold rounded-full px-12 py-[14px] block"
+          class="btn bg-transparent hover:bg-[#3181C1] hover:text-white transition-all duration-300 border-2 border-[#3181C1] text-[#3181C1] text-base font-semibold rounded-full px-10 py-3 block"
           style="width: fit-content"
         >
           Our Major Projects
